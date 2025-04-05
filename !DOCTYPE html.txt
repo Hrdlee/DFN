@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Financial Report - April 4, 2025</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h2, h3 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #eee;
+            border-radius: 5px;
+        }
+        .stock-table, .grain-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        .stock-table th, .stock-table td, .grain-table th, .grain-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .stock-table th, .grain-table th {
+            background-color: #f4f4f4;
+        }
+        .mortgage-calculator {
+            margin-top: 10px;
+        }
+        .news-item {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Daily Financial Report - April 4, 2025</h1>
+
+    <div class="section">
+        <h2>Housing Market News & Interest Rates</h2>
+        <p>Lower mortgage rates are being observed today, which could be a positive sign for the housing market in 2025. However, high home prices and limited inventory continue to be challenges.</p>
+        <ul>
+            <li><b>30-year fixed-rate:</b> 6.65% (-0.09% from last week)</li>
+            <li><b>15-year fixed-rate:</b> 5.88% (-0.10% from last week)</li>
+            <li><b>30-year fixed-rate jumbo:</b> 6.71% (-0.04% from last week)</li>
+        </ul>
+        <p>Lingering inflation and concerns about global trade continue to influence rate fluctuations. Most experts anticipate the 30-year fixed mortgage rate to remain between 6.5% and 7% for the remainder of the year.</p>
+    </div>
+
+    <div class="section">
+        <h2>Mortgage Calculator - $380,000 80/20 Loan</h2>
+        <p>For an $380,000 home with an 80/20 loan, this means a loan amount of $304,000 (80% of $380,000) and a down payment of $76,000 (20% of $380,000).</p>
+        <p>Assuming a 30-year fixed-rate mortgage at the current average of 6.65%:</p>
+        <div class="mortgage-calculator">
+            <p><b>Loan Amount:</b> $304,000</p>
+            <p><b>Interest Rate:</b> 6.65% per year (0.0665 / 12 = 0.00554167 per month)</p>
+            <p><b>Loan Term:</b> 30 years (30 * 12 = 360 months)</p>
+            <p>The monthly payment (principal and interest only) can be calculated using the formula: M = P [ i(1 + i)^n ] / [ (1 + i)^n – 1 ]</p>
+            <p>Where:</p>
+            <ul>
+                <li>M = Monthly Payment</li>
+                <li>P = Principal Loan Amount ($304,000)</li>
+                <li>i = Monthly Interest Rate (0.00554167)</li>
+                <li>n = Total Number of Payments (360)</li>
+            </ul>
+            <p>M = 304000 * [ 0.00554167(1 + 0.00554167)^360 ] / [ (1 + 0.00554167)^360 – 1 ]</p>
+            <p>M ≈ <b>$1960.87</b> (This payment does not include property taxes or homeowner's insurance.)</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Stock Market News</h2>
+        <p>The stock market experienced a downturn for the second consecutive day as investors are closely monitoring tariff negotiations. The announcement of potential tariffs has introduced uncertainty into the market.</p>
+        <h3>Stock Performance</h3>
+        <table class="stock-table">
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Company</th>
+                    <th>Current Price (April 4, 2025)</th>
+                    <th>52-Week High</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>MO</td>
+                    <td>Altria Group Inc.</td>
+                    <td>$57.89</td>
+                    <td>$60.18</td>
+                </tr>
+                <tr>
+                    <td>ORI</td>
+                    <td>Old Republic International Corp.</td>
+                    <td><i>Data for ORI current price and 52-week high not readily available in provided sources.</i></td>
+                    <td><i>Data for ORI current price and 52-week high not readily available in provided sources.</i></td>
+                </tr>
+            </tbody>
+        </table>
+        <p><b>News Highlights:</b></p>
+        <ul>
+            <li class="news-item">Altria Group's stock recently hit a 52-week high of $59.71 amidst strong annual gains.</li>
+            <li class="news-item">The broader market is reacting to the potential impact of new tariffs announced earlier in the week.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Grain Market Quotes</h2>
+        <p>Most commodity markets are trading lower today due to ongoing concerns about tariffs and world trade. The potential for retaliatory tariffs, particularly from China, is weighing on prices, especially for soybeans.</p>
+        <table class="grain-table">
+            <thead>
+                <tr>
+                    <th>Commodity</th>
+                    <th>Current Quote (April 4, 2025)</th>
+                    <th>Contract High</th>
+                    <th>Contract Low</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Corn (May 2025)</td>
+                    <td>Opened at $4.50½ per bushel, down from previous close of $4.57½</td>
+                    <td><i>Data not readily available in provided sources.</i></td>
+                    <td><i>Data not readily available in provided sources.</i></td>
+                </tr>
+                <tr>
+                    <td>Soybeans (May 2025)</td>
+                    <td>Down 23-25 cents this morning</td>
+                    <td><i>Data not readily available in provided sources.</i></td>
+                    <td><i>Data not readily available in provided sources.</i></td>
+                </tr>
+                <tr>
+                    <td>Wheat (May 2025 Chicago SRW)</td>
+                    <td>Opened at $5.30¼ per bushel, down 3¼ cents from previous close of $5.36</td>
+                    <td><i>Data not readily available in provided sources.</i></td>
+                    <td><i>Data not readily available in provided sources.</i></td>
+                </tr>
+                <tr>
+                    <td>Rice</td>
+                    <td><i>Data not readily available in provided sources.</i></td>
+                    <td><i>Data not readily available in provided sources.</i></td>
+                    <td><i>Data not readily available in provided sources.</i></td>
+                </tr>
+            </tbody>
+        </table>
+        <p><b>Daily News:</b></p>
+        <ul>
+            <li class="news-item">China has announced retaliatory tariffs on US imports in response to President Trump's new tariffs, significantly impacting the soybean market.</li>
+            <li class="news-item">Concerns are rising about a potential washout of unshipped old crop soybean sales to China, dimming prospects for new business.</li>
+            <li class="news-item">World grain trade for the 2024/25 season is projected to be lower than previous estimates, reaching its lowest level since 2019/20.</li>
+            <li class="news-item">USDA reported corn export sales increased week-on-week, with South Korea, Mexico, and Japan being top buyers.</li>
+            <li class="news-item">Wheat markets continue to face pressure due to weak competitiveness and trade tensions.</li>
+        </ul>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f8f8f8;
+}
+
+.section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+.stock-table, .grain-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.stock-table th, .stock-table td, .grain-table th, .grain-table td {
+    border: 1px solid #eee;
+    padding: 8px;
+    text-align: left;
+}
+
+.stock-table th, .grain-table th {
+    background-color: #f4f4f4;
+}
+
+.news-item {
+    margin-bottom: 8px;
+}
